@@ -1,3 +1,5 @@
-.nameholder{    
-    background-color: #6874e8!important;
+@media (max-width:800px) {
+    .rounded-cicle{
+        display: none;
+    }
 }
