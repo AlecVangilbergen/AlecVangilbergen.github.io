@@ -59,7 +59,7 @@
     <link href="features.css" rel="stylesheet">
   </head>
   <body>    
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4" id="navbar">
   <div class="container-fluid">
   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,12 +83,12 @@
         </li>
       </ul>
     </div>
-  </div><img src="images\test.jpg" class="rounded-circle" alt="Responsive image" id="image1">
+  </div><img src="images\test.jpg" title="me" class="rounded-circle" alt="Responsive image" id="image1">
 </nav>
 
 <main>
-  
   <div class="container py-4"  >
+    
     <div class="h-100 p-5 text-white bg-dark rounded-3" id="nameholder" style="background-color: #6874e8; margin-bottom: 2rem;" >
       
       <div class="h-100 p-5 text-white bg-dark rounded-3" >
@@ -229,6 +229,7 @@
                       sentence and probably just keep going until we run out of words.</p>
               </div>
           </div>
+          <button class="btn btn-outline-light" type="button" onclick="document.getElementById('navbar').scrollIntoView();">Back to top &uarr;</button>
         </section>
         <section style="margin-top:3rem" id="section-cv">
           <div class="h-100 p-5 text-white bg-dark rounded-3" style="margin-bottom: 2rem; margin-right: 7rem; margin-left: 7rem;">
@@ -239,10 +240,12 @@
                       <path fill-rule="evenodd" d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.5a.5.5 0 0 1 1 0V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0zm-.354 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V11h-1v3.293l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
                     </svg></a></p>
               </div>
+              <button class="btn btn-outline-light" style="margin-left: 1rem" type="button" onclick="document.getElementById('navbar').scrollIntoView();">Back to top &uarr;</button>
+    
             </div>
             </section>
       </div>
-    <footer class="pt-3 mt-4 text border-top" style="color: black;">
+      <footer class="pt-3 mt-4 text border-top" style="color: black;">
       &copy; Alec Vangilbergen 2022
     </footer>
   </div>
