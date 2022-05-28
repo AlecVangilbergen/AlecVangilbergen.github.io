@@ -144,7 +144,7 @@
         <div class="h-100 p-5 text-white bg-dark rounded-3">
           <h2>Projects</h2>
           <p>A small list of the projects I have participated in during my study.</p>
-          <button class="btn btn-outline-light" type="button" onclick="window.location.href='projects.html'" disabled>Learn more &raquo;</button>
+          <button class="btn btn-outline-light" type="button" onclick="document.getElementById('section-projects').scrollIntoView();" >Learn more &raquo;</button>
         </div>
       </div>
       <div class="col-md-6">
@@ -213,8 +213,7 @@
                       </svg>
                   </div>
                   <h2>Java</h2>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                      sentence and probably just keep going until we run out of words.</p>
+                  <p>We used Java for many classes including BOP and OOP</p>
                   <!-- <a href="#" class="icon-link">
                       Call to action
                       <svg class="bi" width="1em" height="1em">
@@ -229,8 +228,7 @@
                       </svg>
                   </div>
                   <h2>Javascript</h2>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                      sentence and probably just keep going until we run out of words.</p>
+                  <p>We learned how to write algorithms in javascript and use it in web applications</p>
               </div>
               <div class="feature col">
                   <div class="feature-icon bg-primary bg-gradient">
@@ -239,8 +237,7 @@
                       </svg>
                   </div>
                   <h2>Python</h2>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                      sentence and probably just keep going until we run out of words.</p>
+                  <p>We used Python to learn how to write small scripts</p>
               </div>
               <div class="feature col">
                   <div class="feature-icon bg-primary bg-gradient">
@@ -249,8 +246,7 @@
                       </svg>
                   </div>
                   <h2>HTML5</h2>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                      sentence and probably just keep going until we run out of words.</p>
+                  <p>We used HTML to make static and dynamic websites</p>
               </div>
               <div class="feature col">
                   <div class="feature-icon bg-primary bg-gradient">
@@ -259,8 +255,7 @@
                       </svg>
                   </div>
                   <h2>CSS3</h2>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                      sentence and probably just keep going until we run out of words.</p>
+                  <p>We used CSS to style our websites that we made</p>
               </div>
               <div class="feature col">
                   <div class="feature-icon bg-primary bg-gradient">
@@ -269,30 +264,77 @@
                       </svg>
                   </div>
                   <h2>SQL</h2>
-                  <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                      sentence and probably just keep going until we run out of words.</p>
+                  <p>We used SQL to learn how to get data from a database and also store it for many projects</p>
               </div>
              
           </div>
           <div class="h-100 p-5 text-white bg-dark rounded-3" id="DLR-div">
             <h2 class="pb-2 border-bottom">DLR's</h2>
             <div class="feature col">
-              <h2>DLR</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                  sentence and probably just keep going until we run out of words.</p>
+              <h2>DLR 1 De professionele bachelor TI
+                analyseert een probleem, vertaalt
+                dit naar een IT-context en geeft de
+                informatiebehoeften van een
+                organisatie gestructureerd weer
+                door gebruik te maken van analyse-
+                en modelleringstechnieken.</h2>
+              <p>Tijdens onze opleiding zijn we altijd bezig met het oplossen van IT gerelateerde problemen. We hebben dan ook vakken zoals
+                Data-Modellering en Business Process Management die ons hier bij helpen.
+              </p>
           </div>
           <div class="feature col">
-              <h2>DLR</h2>
-              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                  sentence and probably just keep going until we run out of words.</p>
+              <h2>DLR 2. De professionele bachelor TI
+                verzamelt en verwerkt proces- en
+                datagegevens, slaat ze op en stelt
+                ze ter beschikking, zodat deze op
+                een correcte en efficiënte manier
+                kunnen worden opgevraagd.</h2>
+              <p>We hebben vakken zoals Dataquerying waarbij we leren hoe we gegevens correct en efficiënt opslaan in een SQL database en deze dan ook correct kunnen raadplegen. </p>
           </div>
           <div class="feature col">
-            <h2>DLR</h2>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                sentence and probably just keep going until we run out of words.</p>
+            <h2>DLR 3. De professionele bachelor TI
+              ontwerpt, bouwt, documenteert en
+              test kwalitatieve IT-oplossingen.</h2>
+            <p>Er zijn een aantal vakken die ons leren om IT-oplossingen op te stellen zoals BOP, OOP en Webontwikkeling. Daarnaast zijn er ook vakken zoals Software Testing die ons aanleren om onze projecten correct op te bouwen en te testen.</p>
           </div>
           </div>
         </section>
+
+        <section style="margin-top: 3rem;" id="section-projects">
+          <h1 class="visually-hidden">Features examples</h1>
+    
+          <div class="h-100 p-5 text-white bg-dark rounded-3" id="projects-div">
+              <h2 class="pb-2 border-bottom">Projects</h2>
+              <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="feature col">
+                      <h2>React & Axios Studentbook</h2>
+                      <p>We made a react project called Studentbook that could be used to place messages on a messageboard
+                          and also to add friends. We used Axios to make a request to the database and
+                          React to make the frontend.
+                      </p>
+                  </div>
+                  <div class="feature col" style="color: ;">
+                      <h2>Web Project</h2>
+                      <p>I made a website that could be used to display a list of movies the user had watched. 
+                        It was a simple website without a database connection and it was made with HTML, CSS and Javascript.
+                        The user was able to keep track of watched movies and could give the movies a rating. 
+                        The website also allowed the user to search for movies on the list.
+                      </p>
+                  </div>
+                  <div class="feature col">
+                      <h2>Coin Club project</h2>
+                      <p>We made a application that could be used to keep a coin collection club. 
+                        The application was made with HTML, CSS and Javascript. The application allowed the user to add coins to a collection and also to remove coins from the collection. 
+                        The application also allowed the user to search for coins on the list. You could also use API calls to add collectors or get a list of collectors based on a search pattern.
+                      </p>
+                  </div>
+                  
+                 
+              </div>
+            </section>
+
+
+
         <section style="margin-top:3rem" id="section-cv">
           <div class="h-100 p-5 text-white bg-dark rounded-3" id="cv-div" >
             <div class="h-100 p-5 text-white bg-dark rounded-3">
@@ -302,7 +344,6 @@
                       <path fill-rule="evenodd" d="M8 0a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 4.095 0 5.555 0 7.318 0 9.366 1.708 11 3.781 11H7.5V5.5a.5.5 0 0 1 1 0V11h4.188C14.502 11 16 9.57 16 7.773c0-1.636-1.242-2.969-2.834-3.194C12.923 1.999 10.69 0 8 0zm-.354 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V11h-1v3.293l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
                     </svg></a></p>
               </div>
-              
     
             </div>
             </section>
